@@ -1,0 +1,13 @@
+{%- extends 'layouts/generic.html' %}
+
+{% block title -%}Covid-19{%- endblock %}
+
+{% block description -%}Diagnosis reccommendation{%- endblock %}
+
+{% block content -%}
+<div class="container">
+	<p style="margin-left: 100px"> No vaccine has been discovered for the cure of corona virus</p>
+</div>
+
+<center><a href="{{ url_for('covid19') }}" style="color: red">Further Lab  Test</a></center>
+{%- endblock %}

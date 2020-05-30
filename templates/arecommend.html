@@ -1,0 +1,12 @@
+{%- extends 'layouts/generic.html' %}
+
+{% block title -%}Asthma{%- endblock %}
+
+{% block description -%}Diagnosis reccommendation{%- endblock %}
+
+{% block content -%}
+<div class="container">
+	<p style="margin-left: 100px"> Let proper treatment for Athsma be given</p>
+</div>
+<center><a href="{{ url_for('asthma') }}" style="color: red">Further Lab  Test</a></center>
+{%- endblock %}
