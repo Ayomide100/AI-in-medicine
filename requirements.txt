@@ -41,7 +41,7 @@ scipy>=1.0.0
 pandas==0.22.0
 scikit-learn==0.19.1
 passlib==1.7.1
-pillow==7.1.1
+pillow==8.2.0
 --find-links https://download.pytorch.org/whl/torch_stable.html
 torch==1.4.0+cpu
 gunicorn==20.0.4
